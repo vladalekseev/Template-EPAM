@@ -1,0 +1,107 @@
+
+@media only screen and (min-width: 1024px) {
+    .wrapper {
+        width: 1024px;
+    }
+}
+
+
+
+@media only screen and (max-width: 800px) {
+
+
+    .portfolio .work, .work>div {
+        height: 200px;
+    }
+
+}
+
+@media only screen and (max-width: 650px) {
+    .portfolio .work, .work>div {
+        height: 150px;
+    }
+
+    .description__text {
+        margin: 0 auto 0;
+        padding-top: 70px;
+    }
+
+    .description__text h3 {
+        font-size: 22px;
+    }
+    .description__text p {
+        font-size: 13px;
+    }
+
+}
+
+@media only screen and (max-width: 500px) and (min-width: 400px) {
+    .portfolio {
+        width: 400px;
+        margin: 47px auto 0;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+
+    .portfolio__left, .portfolio__right {
+        width: 100%;;
+    }
+
+}
+
+
+@media only screen and (max-width : 1200px) {
+
+}
+
+
+@media only screen and (max-width : 992px) {
+
+    .application .triangle {
+        border-bottom: 30px solid #fff;
+        border-left: 30px solid transparent;
+        border-right: 30px solid transparent;
+        top: -30px;
+
+    }
+
+}
+
+@media only screen and (max-width : 768px) {
+
+    .application .triangle {
+        border-bottom: 23px solid #fff;
+        border-left: 23px solid transparent;
+        border-right: 23px solid transparent;
+        top: -23px;
+
+    }
+
+}
+
+@media only screen and (max-width : 480px) {
+
+    .application {
+        width: 98%;
+    }
+
+    .info input {
+        width: 80%;
+    }
+
+
+    .application .triangle {
+        border-bottom: 18px solid #fff;
+        border-left: 18px solid transparent;
+        border-right: 18px solid transparent;
+        top: -18px;
+        left: 43%;
+
+    }
+}
+
+
+
+
